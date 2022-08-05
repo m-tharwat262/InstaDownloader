@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mtma.insta.downloader.Views.SquareLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/select_stories_overview_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2.5dp">
+
+    <ImageView
+        android:id="@+id/overview_media_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black" />
+
+    <ImageView
+        android:id="@+id/overview_is_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:alpha="0.85"
+        android:src="@drawable/media_type_video"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+</com.mtma.insta.downloader.Views.SquareLayout>

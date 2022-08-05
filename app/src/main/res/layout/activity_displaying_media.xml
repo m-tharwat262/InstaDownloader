@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/activity_displaying_media_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/activity_displaying_media_tab_layout"
+        android:layout_below="@id/activity_displaying_media_layout_contain_buttons" />
+
+    <RelativeLayout
+        android:id="@+id/activity_displaying_media_layout_contain_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="8dp">
+
+
+        <ImageButton
+            android:id="@+id/activity_displaying_media_back_button"
+            style="@style/display_download_items_image_view"
+            android:rotation="135"
+            android:src="@drawable/back_up_button" />
+
+        <ImageButton
+            android:id="@+id/activity_displaying_media_repost"
+            style="@style/display_download_items_image_view"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/repost_icon"
+            app:tint="@android:color/white" />
+
+
+        <ImageButton
+            android:id="@+id/activity_displaying_media_share"
+            style="@style/display_download_items_image_view"
+            android:layout_toStartOf="@id/activity_displaying_media_repost"
+            android:src="@drawable/share_icon"
+            app:tint="@android:color/white"/>
+
+
+        <ImageButton
+            android:id="@+id/activity_displaying_media_copy_text_and_hashtags"
+            style="@style/display_download_items_image_view"
+            android:layout_toStartOf="@id/activity_displaying_media_share"
+            android:src="@drawable/copy_icon"
+            app:tint="@android:color/white" />
+
+
+        <ImageButton
+            android:id="@+id/activity_displaying_media_copy_text"
+            style="@style/display_download_items_image_view"
+            android:layout_toStartOf="@id/activity_displaying_media_copy_text_and_hashtags"
+            android:src="@drawable/text_icon"
+            app:tint="@android:color/white" />
+
+
+        <ImageButton
+            android:id="@+id/activity_displaying_media_copy_hashtags"
+            style="@style/display_download_items_image_view"
+            android:layout_toStartOf="@id/activity_displaying_media_copy_text"
+            android:src="@drawable/hashtag_icon"
+            app:tint="@android:color/white"/>
+
+
+        <ImageButton
+            android:id="@+id/activity_displaying_media_go_to_instagram"
+            style="@style/display_download_items_image_view"
+            android:layout_toStartOf="@id/activity_displaying_media_copy_hashtags"
+            android:src="@drawable/web_icon"
+            app:tint="@android:color/white" />
+
+
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/activity_displaying_media_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:tabBackground="@drawable/indicator_tab_selector"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp" />
+
+
+</RelativeLayout>

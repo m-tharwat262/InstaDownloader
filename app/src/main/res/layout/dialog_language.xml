@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_margin="24dp"
+    android:background="@drawable/dialog_language_background"
+    android:layout_gravity="center"
+    tools:context=".activities.SettingsActivity">
+
+
+    <RadioGroup
+        android:id="@+id/setting_language_dialog_radios_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <RadioButton
+            android:id="@+id/setting_language_dialog_english_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:text="@string/settings_category_general_language_english_title"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            app:buttonTint="@color/primary_color" />
+
+        <RadioButton
+            android:id="@+id/setting_language_dialog_arabic_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:text="@string/settings_category_general_language_arabic_title"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            app:buttonTint="@color/primary_color" />
+
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end">
+
+        <TextView
+            android:id="@+id/setting_language_dialog_cancel_button"
+            style="@style/text_button"
+            android:text="@string/cancel_button"
+            android:textAllCaps="true"
+            android:layout_marginEnd="16dp"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/setting_language_dialog_ok_button"
+            style="@style/text_button"
+            android:text="@string/ok_button"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

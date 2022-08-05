@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="28dp"
+        android:paddingEnd="28dp">
+
+
+        <GridView
+            android:id="@+id/activity_saved_posts_grid_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:horizontalSpacing="8dp"
+            android:numColumns="2"
+            android:paddingTop="128dp"
+            android:paddingBottom="136dp"
+            android:scrollbars="none"
+            android:verticalSpacing="8dp" />
+
+
+        <ProgressBar
+            android:id="@+id/activity_saved_posts_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/primary_color"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+
+
+        <LinearLayout
+            android:id="@+id/activity_saved_posts_empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone"
+            tools:visibility="visible" >
+
+
+            <ImageView
+                android:id="@+id/activity_saved_posts_sad_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/sad_icon"/>
+
+
+            <TextView
+                android:id="@+id/activity_saved_posts_activity_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="@string/empty_view"/>
+
+            <TextView
+                android:id="@+id/activity_saved_posts_text_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_color"
+                android:padding="8dp"
+                android:gravity="center"
+                android:background="@drawable/text_button_with_pink_ripple"
+                tools:text="Refresh"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/activity_saved_posts_button_download"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="68dp"
+            android:text="@string/download_button"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/download_button_disabled"
+            android:foreground="?attr/selectableItemBackground" />
+
+
+    </RelativeLayout>
+
+
+
+    <include
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:id="@+id/bannerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</RelativeLayout>

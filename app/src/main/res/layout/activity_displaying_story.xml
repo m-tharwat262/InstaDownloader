@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/activity_displaying_story_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/activity_displaying_story_tab_layout"
+        android:layout_below="@id/activity_displaying_story_layout_contain_buttons" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/activity_displaying_story_layout_contain_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="8dp">
+
+
+        <ImageButton
+            android:id="@+id/activity_displaying_story_back_button"
+            style="@style/display_download_items_image_view"
+            android:src="@drawable/back_up_button"
+            android:rotation="135" />
+
+
+        <ImageButton
+            android:id="@+id/activity_displaying_story_download_button"
+            style="@style/display_download_items_image_view"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/download_media_icon"
+            app:tint="@android:color/white" />
+
+    </RelativeLayout>
+
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/activity_displaying_story_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:tabBackground="@drawable/indicator_tab_selector"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp" />
+
+
+</RelativeLayout>

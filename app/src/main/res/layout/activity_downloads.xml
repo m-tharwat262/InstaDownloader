@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:paddingBottom="40dp">
+
+
+        <ListView
+            android:id="@+id/activity_downloads_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="128dp"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:scrollbars="none"
+            android:dividerHeight="8dp" />
+
+
+        <LinearLayout
+            android:id="@+id/activity_downloads_empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone"
+            tools:visibility="visible" >
+
+
+            <ImageView
+                android:id="@+id/fragment_dialog_stories_sad_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/sad_icon"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/empty_view"
+                android:layout_marginTop="8sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_color"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+
+
+
+        <ProgressBar
+            android:id="@+id/activity_download_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/primary_color"
+            android:visibility="visible"
+            tools:visibility="gone" />
+
+    </RelativeLayout>
+
+
+        <include
+            android:id="@+id/activity_download_tool_bar"
+            layout="@layout/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/bannerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

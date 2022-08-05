@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activities.HowToUseActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="128dp"
+            android:paddingStart="28dp"
+            android:paddingEnd="28dp"
+            android:paddingBottom="28dp">
+
+
+            <LinearLayout style="@style/how_to_use_layout">
+
+
+                <TextView
+                    style="@style/how_to_use_title"
+                    android:text="@string/download_post" />
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_post_step_1" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_share_to_post" />
+
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_post_step_2" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_select_app" />
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_post_step_3" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_start_downloading" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <LinearLayout style="@style/how_to_use_layout">
+
+
+                <TextView
+                    style="@style/how_to_use_title"
+                    android:text="@string/or_word" />
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_post_step_4" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_copy_post_link" />
+
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_post_step_5" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_paste_link" />
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_post_step_3" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_download_post_link" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+
+            <LinearLayout style="@style/how_to_use_layout">
+
+
+                <TextView
+                    style="@style/how_to_use_title"
+                    android:text="@string/download_story" />
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_post_step_1" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_share_to_story" />
+
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_post_step_2" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_select_app" />
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_post_step_3" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_start_downloading" />
+
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+
+            <LinearLayout style="@style/how_to_use_layout">
+
+
+                <TextView
+                    style="@style/how_to_use_title"
+                    android:text="@string/or_word" />
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_story_step_1" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_copy_story_link" />
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_story_step_2" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_paste_link" />
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_story_step_3" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_download_story_link" />
+
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+
+            <LinearLayout style="@style/how_to_use_layout">
+
+
+                <TextView
+                    style="@style/how_to_use_title"
+                    android:text="@string/or_word" />
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_story_step_4" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_login_button" />
+
+                <TextView
+                    style="@style/how_to_use_content_text"
+                    android:text="@string/download_story_step_5" />
+
+                <ImageView
+                    style="@style/how_to_use_image"
+                    android:src="@drawable/insta_displaying_stories" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <include
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

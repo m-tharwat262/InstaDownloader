@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activities.SettingsActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="28dp"
+            android:paddingTop="160dp"
+            android:paddingEnd="28dp"
+            android:paddingBottom="28dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/for_test_buttons"
+                    style="@style/setting_category_title"
+                    android:text="@string/general_title" />
+
+
+                <LinearLayout
+                    android:id="@+id/activity_settings_saved_posts"
+                    style="@style/setting_item_linear_layout">
+
+                    <TextView
+                        style="@style/setting_item_text_view"
+                        android:text="@string/display_saved_posts_label" />
+
+
+                    <com.google.android.material.switchmaterial.SwitchMaterial
+                        android:id="@+id/activity_settings_my_group_switch"
+                        style="@style/setting_item_icon_view"
+                        android:thumb="@drawable/switch_button_thumb"
+                        app:track="@drawable/switch_button_track" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/activity_settings_language"
+                    style="@style/setting_item_linear_layout">
+
+                    <TextView
+                        style="@style/setting_item_text_view"
+                        android:text="@string/language_label" />
+
+
+                    <TextView
+                        android:id="@+id/activity_settings_language_value"
+                        style="@style/setting_item_icon_view"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/primary_color"
+                        android:textSize="16sp"
+                        tools:text="En" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/activity_settings_feedback"
+                    style="@style/setting_item_linear_layout">
+
+                    <TextView
+                        style="@style/setting_item_text_view"
+                        android:text="@string/feedback_title" />
+
+
+                    <ImageView
+                        style="@style/setting_item_icon_view"
+                        android:src="@drawable/feedback_icon" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    style="@style/setting_category_title"
+                    android:text="@string/privacy_title" />
+
+
+                <LinearLayout
+                    android:id="@+id/activity_settings_terms_of_use"
+                    style="@style/setting_item_linear_layout">
+
+                    <TextView
+                        style="@style/setting_item_text_view"
+                        android:text="@string/terms_of_use_title" />
+
+
+                    <ImageView
+                        style="@style/setting_item_icon_view"
+                        android:src="@drawable/term_of_use_icon" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/activity_settings_privacy_police"
+                    style="@style/setting_item_linear_layout">
+
+                    <TextView
+                        style="@style/setting_item_text_view"
+                        android:text="@string/privacy_police_title" />
+
+
+                    <ImageView
+                        style="@style/setting_item_icon_view"
+                        android:src="@drawable/privacy_police_icon" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/activity_settings_clear_cache"
+                    style="@style/setting_item_linear_layout">
+
+                    <TextView
+                        style="@style/setting_item_text_view"
+                        android:text="@string/clear_cache_label" />
+
+
+                    <ImageView
+                        style="@style/setting_item_icon_view"
+                        android:src="@drawable/cache_icon" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/tool_bar" />
+
+
+</RelativeLayout>

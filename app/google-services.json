@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "178707568490",
+    "project_id": "instadownloader-88b70",
+    "storage_bucket": "instadownloader-88b70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178707568490:android:d1ff2e40235263b522f713",
+        "android_client_info": {
+          "package_name": "com.mtma.insta.downloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178707568490-bdc6r61jpblk7m85g9l64oe7gjdjqsuk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mtma.insta.downloader",
+            "certificate_hash": "e07794ed47b5457504631d89936fc7cb76c99b38"
+          }
+        },
+        {
+          "client_id": "178707568490-hkmtcagkgbr90bbmegsc2qg1vsed3870.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC3Dxhdka4QRyjSrSRinTFyALEKhJsl4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178707568490-hkmtcagkgbr90bbmegsc2qg1vsed3870.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

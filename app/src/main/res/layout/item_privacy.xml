@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        style="@style/setting_item_linear_layout"
+        android:id="@+id/activity_settings_comment"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/item_drawer_button">
+
+
+        <TextView
+            style="@style/setting_category_title"
+            android:id="@+id/item_privacy_police_title"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/primary_color"
+            tools:text="Introduction"/>
+
+
+        <TextView
+            android:id="@+id/item_privacy_police_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/settings_item_text"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            tools:text="@string/privacy_police_contact_us_body"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

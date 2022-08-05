@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="24dp"
+    android:paddingTop="16dp">
+
+
+    <View
+        android:layout_width="70dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bottom_sheet_line_with_curve_edgs"/>
+    <View
+        android:layout_width="70dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bottom_sheet_line_with_curve_edgs"/>
+
+
+    <!-- NOTE: This list should be displayed in a list instead of nested layouts -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/fragment_bottom_sheet_repost"
+            style="@style/bottom_sheet_linear_layout_item" >
+
+            <ImageView
+                style="@style/drawer_item_image_view"
+                android:src="@drawable/repost_icon" />
+
+
+            <TextView
+                style="@style/drawer_item_text_view"
+                android:text="@string/bottom_sheet_repost"/>
+
+        </LinearLayout>
+        <View style="@style/bottom_sheet_line"/>
+
+
+        <LinearLayout
+            android:id="@+id/fragment_bottom_sheet_share"
+            style="@style/bottom_sheet_linear_layout_item">
+
+            <ImageView
+                style="@style/drawer_item_image_view"
+                android:src="@drawable/share_icon" />
+
+
+            <TextView
+                style="@style/drawer_item_text_view"
+                android:text="@string/bottom_sheet_share"/>
+
+        </LinearLayout>
+        <View style="@style/bottom_sheet_line"/>
+
+
+        <LinearLayout
+            android:id="@+id/fragment_bottom_sheet_copy_text_and_hashtags"
+            style="@style/bottom_sheet_linear_layout_item" >
+
+            <ImageView
+                style="@style/drawer_item_image_view"
+                android:src="@drawable/copy_icon" />
+
+
+            <TextView
+                style="@style/drawer_item_text_view"
+                android:text="@string/bottom_sheet_copy_text_and_hashtags"/>
+
+        </LinearLayout>
+        <View style="@style/bottom_sheet_line"/>
+
+
+        <LinearLayout
+            android:id="@+id/fragment_bottom_sheet_copy_text"
+            style="@style/bottom_sheet_linear_layout_item" >
+
+            <ImageView
+                style="@style/drawer_item_image_view"
+                android:src="@drawable/text_icon" />
+
+
+            <TextView
+                style="@style/drawer_item_text_view"
+                android:text="@string/bottom_sheet_copy_text"/>
+
+        </LinearLayout>
+        <View style="@style/bottom_sheet_line"/>
+
+
+        <LinearLayout
+            android:id="@+id/fragment_bottom_sheet_copy_hashtag"
+            style="@style/bottom_sheet_linear_layout_item" >
+
+            <ImageView
+                style="@style/drawer_item_image_view"
+                android:src="@drawable/hashtag_icon" />
+
+
+            <TextView
+                style="@style/drawer_item_text_view"
+                android:text="@string/bottom_sheet_copy_hashtag"/>
+
+        </LinearLayout>
+        <View style="@style/bottom_sheet_line"/>
+
+
+        <LinearLayout
+            android:id="@+id/fragment_bottom_sheet_delete"
+            style="@style/bottom_sheet_linear_layout_item" >
+
+            <ImageView
+                style="@style/drawer_item_image_view"
+                android:src="@drawable/delete_icon" />
+
+
+            <TextView
+                style="@style/drawer_item_text_view"
+                android:text="@string/bottom_sheet_delete"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

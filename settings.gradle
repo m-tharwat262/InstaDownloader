@@ -1,0 +1,2 @@
+rootProject.name = "Insta Downloader"
+include ':app'

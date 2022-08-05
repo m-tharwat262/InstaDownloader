@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/fragment_saved_posts_header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:text="@string/saved_posts_title"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/fragment_saved_posts_see_all_button"
+                style="@style/text_button"
+                android:text="@string/see_all_button" />
+
+
+        </LinearLayout>
+
+
+
+        <it.sephiroth.android.library.widget.HListView
+            android:id="@+id/fragment_saved_posts_horizontal_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:paddingHorizontal="32dp"
+            app:hlv_dividerWidth="8dp">
+        </it.sephiroth.android.library.widget.HListView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

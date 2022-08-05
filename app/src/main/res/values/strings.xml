@@ -1,0 +1,425 @@
+<resources>
+
+    /////////////////////// App Name ////////////////////////
+    <string name="app_name">Insta Downloader</string>
+    <string name="app_name_without_space">InstaDownloader</string>
+
+
+    /////////////////////// Google Ads ////////////////////////
+    <string name="app_id_admob" translatable="false">ca-app-pub-3940256099942544~3419835294</string>
+    <string name="banner_id_admob" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_id_admob" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+
+
+    /////////////////////// Global Values ////////////////////////
+    <string name="insta_word">Insta</string>
+    <string name="downloader_word">Downloader</string>
+    <string name="ok_button">Ok</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="something_wrong_please_try_again">something wrong, please try again</string>
+
+
+
+    /////////////////////// Splash Activity ////////////////////////
+    <string name="splash_screen_hint_text">Download and Save your Favourite Posts, Stories, Reels and IGTVs.</string>
+    <string name="by_mtma">BY MTMA</string>
+
+
+
+    /////////////////////// Main Activity ////////////////////////
+    <!-- toolbar -->
+    <string name="open_instagram_action">open Instagram</string>
+    <string name="open_drawer_action">open drawer</string>
+    <string name="close_drawer_action">close drawer</string>
+
+    <!-- drawer -->
+    <string name="login_now_button_with_under_line"><u>Login now</u></string>
+    <string name="downloads_title">Downloads</string>
+    <string name="saved_posts_title">Saved Posts</string>
+    <string name="how_to_use_title">How to Use</string>
+    <string name="settings_title">Settings</string>
+    <string name="rate_us_title">Rate us</string>
+    <string name="share_title">Share</string>
+    <string name="logout_title">Logout</string>
+
+
+
+    <string name="download_button">DOWNLOAD</string>
+    <string name="paste_button">PASTE</string>
+    <string name="paste_link_button">PASTE LINK</string>
+    <string name="see_all_button"><u>See all</u></string>
+    <string name="login_button">Login</string>
+    <string name="login_button_with_under_line"><u>Login</u></string>
+
+
+    <string name="hint_for_displaying_stories_and_saved_posts">"Do you want to display and download your\n( Stories &amp; Saved Posts ) ?</string>
+
+
+    <string name="hint_for_past_url">Paste the Instagram link here.</string>
+
+
+    <string name="toast_click_back_again_to_exit">click BACK again to exit.</string>
+
+
+    <string name="login_to_display_your_stories_now">Login Now to Download Your Stories !</string>
+
+
+    <string name="no_stories">No stories found</string>
+    <string name="error_loading_instagram_stories">Error when loading stories !</string>
+    <string name="please_check_internet_connection_then_tap_refresh">Please, check your internet connection and try again.</string>
+    <string name="ask_user_to_log_in_for_download_post">You must login to download this media.</string>
+    <string name="ask_user_to_log_in_for_download_story">You must login to download this story.</string>
+    <string name="confirm_log_out">Confirm Logout ?</string>
+
+    <string name="hint_search_text">Search in Stories</string>
+
+    <string name="toast_successfully_signed_out">successfully signed out</string>
+    <string name="toast_paste_the_url_first">paste the url first</string>
+    <string name="toast_not_valid_url">not valid url</string>
+    <string name="toast_media_saved_successfully">media saved successfully</string>
+
+    <string name="toast_no_link_in_clipboard">no url in your clipboard</string>
+
+
+    <string name="media_already_downloaded_message">Media already downloaded. Do you want to delete and download it again ?</string>
+    <string name="download_again_button">Download Again</string>
+
+
+    /////////////////////// Feedback Activity ////////////////////////
+    <string name="feedback_title">Feedback</string>
+    <string name="hint_for_type_email_address">email address (optional).</string>
+    <string name="hint_for_type_feedback_message">write your message here.</string>
+    <string name="can_not_send_empty_message">can\'t send empty message !</string>
+    <string name="enter_valid_email">please, enter a valid email.</string>
+    <string name="thank_you">Thank you for your feedback.</string>
+    <string name="send_button">Send</string>
+
+
+
+
+
+
+
+
+
+
+    /////////////////////// Downloads activity ////////////////////////
+    <string name="empty_view">There is no media to display</string>
+    <string name="placeholder_media_empty_text">This media has no content text</string>
+    <string name="bottom_sheet_repost">Repost</string>
+    <string name="bottom_sheet_share">Share</string>
+    <string name="bottom_sheet_copy_text_and_hashtags">Copy Text &amp; Hashtags</string>
+    <string name="bottom_sheet_copy_text">Copy Text (only)</string>
+    <string name="bottom_sheet_copy_hashtag">Copy Hashtags (only)</string>
+    <string name="bottom_sheet_delete">Delete</string>
+
+    <string name="toast_can_not_repost_this_media">can\'t repost this media</string>
+    <string name="toast_can_not_share_this_media">can\'t share this media</string>
+    <string name="toast_no_text_or_hashtags_to_copy">no text or hashtags to copy</string>
+    <string name="toast_no_text_to_copy">no text to copy</string>
+    <string name="toast_no_hashtags_to_copy">no hashtags to copy</string>
+    <string name="toast_text_and_hashtags_copied">text and hashtags copied</string>
+    <string name="toast_text_copied">text copied</string>
+    <string name="toast_hashtags_copied">hashtags copied</string>
+    <string name="toast_deleted_successfully">deleted successfully</string>
+
+    <string name="media_has_no_text_ot_hashtags">This media has no text or hashtags</string>
+
+
+
+
+    /////////////////////// Saved Posts activity ////////////////////////
+    <string name="login_to_display_saved_posts">Login first to display your saved posts</string>
+    <string name="no_saved_posts">You have no saved posts to display</string>
+    <string name="unknown_error">Something wrong, please try again</string>
+    <string name="refresh_button_with_under_line"><u>Refresh</u></string>
+    <string name="toast_select_item_first">select item first</string>
+
+
+    /////////////////////////// How to use /////////////////////////
+    <string name="download_post">Download Post</string>
+    <string name="download_post_step_1">1) Inside Instagram App click on Share</string>
+    <string name="download_post_step_2">2) Select Insta Downloader App</string>
+    <string name="download_post_step_3">3) Download will start automatically</string>
+    <string name="download_post_step_4">1) Inside Instagram App click on Copy</string>
+    <string name="download_post_step_5">2) Go to InstaDownloader App and PASTE LINK</string>
+    <string name="download_post_step_6">3) Click on DOWNLOAD to start downloading</string>
+
+    <string name="or_word">Or</string>
+
+    <string name="download_story">Download Story</string>
+    <string name="download_story_step_1">1) Inside Instagram App click on Share to…</string>
+    <string name="download_story_step_2">2) Select Insta Downloader App</string>
+    <string name="download_story_step_3">3) Download will start automatically</string>
+    <string name="download_story_step_4">1) Inside Instagram App click on Copy link</string>
+    <string name="download_story_step_5">2) Go to Insta Downloader App and Past Link</string>
+    <string name="download_story_step_6">3) Click on Download to start downloading</string>
+    <string name="download_story_step_7">1) Click on Login to display stories</string>
+    <string name="download_story_step_8">2) All your stories will appear here</string>
+
+
+
+
+    /////////////////////// Settings Activity ////////////////////////
+    <!-- categories titles -->
+    <string name="general_title">General</string>
+    <string name="privacy_title">Privacy</string>
+    <!-- categories labels -->
+    <string name="display_saved_posts_label">Display Saved Posts</string>
+    <string name="language_label">Languages</string>
+    <string name="clear_cache_label">Clear Cache</string>
+    <!-- language values -->
+    <string name="settings_category_general_language_default">En</string>
+    <string name="settings_category_general_language_arabic">Ar</string>
+    <!-- language dialog -->
+    <string name="settings_category_general_language_english_title">English</string>
+    <string name="settings_category_general_language_arabic_title">Arabic</string>
+    <!-- clear cache hint -->
+    <string name="clear_cache">"cache deleted : %1$s Mb"</string>
+    <string name="toast_error_when_deleting_cache">error when deleting cache</string>
+
+
+
+
+
+
+
+
+
+    //////////////////////////// privacy police /////////////////////////
+
+    <string name="privacy_police_title">Privacy Police</string>
+
+    <string name="privacy_police_content_title" translatable="false">Welcome to InstaDownloader App \n Update in : 1-Aug-2022</string>
+
+
+    <string name="privacy_police_introduction_title" translatable="false">Introduction</string>
+    <string name="privacy_police_introduction_body" translatable="false">1) We takes Users\' privacy very seriously, and We are committed to protecting and respecting Users\' privacy. That value powers all of the decisions We make, including how We collect, use, share, store and respect Users\' personal data.
+        \n2) This Privacy Policy (hereinafter referred to as "Policy") applies to Users (hereinafter referred to as "You" or "Users") of our InstaDownloader App. It is important that You read this Policy together with any other privacy policies or fair processing policies We may provide on specific occasions so that You are fully aware of when, why, and how We collect and process your personal data. If You disagree with this Policy in whole or part, You are entitled to terminate using our Apps at any time.
+        \n3) We reserve the right to amend this Policy or related agreements at any time without notice, which shall take effect and apply immediately. If You disagree, You have the right to stop the Services agreed herein. Once the changes of our agreements have been published, You continually using ours Services are deemed to have fully read, understood, and accepted the changed agreements, and shall abide by such agreements.
+        \n4) This Policy dose not apply to the following cases:
+        \n(i) Any information or personal data collected by any third party services, products, applications, websites, and/or platforms, regardless of whether they are accessible through our Apps.
+        \n(ii) In such circumstances, You should refer directly to the Privacy Policies for the relevant third party.
+    </string>
+
+
+    <string name="privacy_police_data_controller_title" translatable="false">Data Controller and Data Processor</string>
+    <string name="privacy_police_data_controller_body" translatable="false">1) We Limited is both the data controller and data processor, who determines the purposes and methods of the data processing concerning your personal data processing for your use of our services. If You have any questions, You can contact us by mahmoudtharwat909090@gmil.com
+    </string>
+
+
+    <string name="privacy_police_personal_data_title" translatable="false">Personal Data We Collect</string>
+    <string name="privacy_police_personal_data_body" translatable="false">1) Personal data, or personal information, means any information that identifies (whether directly or indirectly) a particular natural person, such as the name, email address, phone number, identification number, location data, or an online identifier, etc. It does not include data where the identity has been removed (anonymous data).
+        \n2) Generally, We do not require You to create an account on our app, and therefore, We do not collect any personal data from You when You download and/or use our app. Also, we do not track your browsing history.
+        \n3) When You use our services, We automatically collect information about the device You use to access our services and your usage of our services. The information We collect may include (where available) the type and model of the device(s) You use, the device\'s unique device identifier, operating system, language options, and mobile network information to allow You to use our services. We use this information to administer our services and for our internal operations including troubleshooting, data analysis, testing, research, statistical, and survey purposes, to improve our services.
+        \n4) Please not that our services require access to your device\'s storage application in order to store the completed videos, but We do not take any information, videos, photos, or other content from your device\'s video storage application. To fully experience our services, please also note that You should enable us to access permissions in your phone such as record, camera, microphone, location, etc. You can also disable such access permission in the settings of your phone if You do not think it\'s necessary.
+        \n5) All features and services within the app don\'t require the collection of face data. We guarantee that face data will not be collected, used, stored, and shared.
+        \n6) Please not that unless otherwise expressed in this Policy, we do not collect and//or store any of your personal data (such as your social platform account password) in any circumstances, including but not limited to:
+        \n(i) when You log in to your personal account of Instagram and its relevant Apps for downloading.
+        \n(ii) when You allow us to access your photo album, local folder, or cloud storage on your device(s).
+        \n(iii) when You repost to any social platform through our Apps.
+        \n(iv) when You download or watch or save data by our app.
+        \n(v) when You subscribe to our service on our app or Google Play.
+    </string>
+
+
+    <string name="privacy_police_how_use_personal_data_title" translatable="false">Using Your Personal Data</string>
+    <string name="privacy_police_how_use_personal_data_body" translatable="false">1) We will use the personal data We collect about You in accordance with the laws of applicable jurisdictions in the following ways:
+        \n(i) To enter into and to perform our contract with You, or to perform any steps You require from us before entering into a contract with You.
+        \n(ii) To communicate with You, including but not limited to respond to your request for any help with our services or for exercising your rights with respect to your personal data.
+        \n(iii) To provide you with the services you request.
+        \n(iv) To pursue our legitimate interests (or those of a third part) as We deem fit and necessary, where your interests and fundamental rights do not override those legitimate interests of ours (or any third party’s), such as:
+        \n1- to understand, improve, optimize and develop our services.
+        \n2- to conduct research and monitor the quality of our services.
+        \n3- to enforce our Terms of Use or:
+        \n4- to respond to complaints, hearings, arbitration, lawsuits, or other governmental or regulatory proceedings.
+        \n2) To comply with our legal obligations under relevant laws, regulations, and orders (including subpoenas), injunctions, or any other legal documents issued by the court or competent governmental or regulatory authorities.
+        \n3) Our service includes and links to features and services (including but not limited to, social applications like YouTube, Facebook, Instagram, and WhatsApp) that are provided by a third party. We do not control such third-party sites or services and are not responsible for the content or functionality of such sites or services. Our inclusion of links does not imply any endorsement or association with their operators. The terms applicable to the use of such third party services will apply and We will not be responsible for anything that is done by You or the third-party service provider in connection with your use of their service. Please note that We do not keep your private personal information like your account, ID, password and etc. on the third-party apps/websites in our services.
+    </string>
+
+
+    <string name="privacy_police_provide_personal_data_title" translatable="false">Provide Personal Data</string>
+    <string name="privacy_police_provide_personal_data_body" translatable="false">1) If You fail to provide the personal data as requested where We need to collect such personal data by law, under the terms of a contract We have with You, to enter into a contract with You, or to provide You with the services, We may not be able to perform the contract We have or are trying to enter into with You, or to provide You with, in part or in a whole, certain features or the services that You request.
+    </string>
+
+
+    <string name="privacy_police_rights_and_controls_title" translatable="false">Your Rights and Controls</string>
+    <string name="privacy_police_rights_and_controls_body" translatable="false">1) You have rights under applicable data protection law in relation to our use of your personal data, including:
+        \n(i) Data Access : You have the right to request access to your personal data.
+        \n(ii) Rectification : You have the right to update or amend your personal data if it is inaccurate or incomplete.
+        \n(iii) Objection : You have the right to object to certain uses of your personal data, including direct marketing, processing based on legitimate interests, and processing for purposes of scientific or historical research and statistics, on grounds relating to your particular situation.
+        \n(iv) Erasure : You have the right to request the deletion of your personal data, or restrict its use, in certain circumstances (for example You can request that We erase your personal data where it is no longer necessary for the purpose for which it was collected unless certain exceptions apply).
+        \n2) Please note that if You request the erasure of your personal information:
+        \n1- We need to keep the data according to the requirements of e-commerce supervisory authority and transportation supervisory authority according to the relevant laws (for example, certain laws require us to keep records of your transactions for a certain period of time before We can delete them).
+        \n2- We may retain your personal information as necessary for our legitimate business interests, such as prevention of money laundering, fraud detection and prevention, and enhancing safety.
+        \n(i) Portability : You have the right to request certain copies of your personal data You have provided to us, to use for your own purposes (often called the right to data portability). PLEASE NOTE THAT We may not able to provide any copy of your personal data since We usually not store any of your personal data.
+        \n(ii) Withdrawing Consent : If We are processing your personal information based on your consent You can withdraw your consent at any time by changing your account settings or by sending a communication to us or the Data Processor specifying which consent You are withdrawing. Please note that the withdrawal of your consent does not affect the lawfulness of any processing activities based on such consent before its withdrawal.
+        \n(iii) Lodging Complaints : You have the right to lodge complaints about our data processing activities by filing a complaint with our Data Officer who can be reached by the "Contact Us" section above or lodge a complaint with the relevant supervisory authority or bring legal action (If needed, please contact mahmoudtharwat909090@gmil.com and We will provide You with detailed information regarding the contact details of the respective competent supervisory authority).
+        \n3) If You are EU and Swiss individuals, you also have the following right, under GDPA, to:
+        \n(i) Request the restricted processing of their personal information.
+        \n(ii) Receive the personal information that they have provided us with, in a structured, commonly used and machine-readable format and You have the right to transmit that information to another controller without hindrance or ask us to do so.
+        \n4) If You are California individuals, you also have the following right, under CCPA, to:
+        \n- Request that We disclose information to You about Our collection, use, sale, disclosure for business purposes and share of personal information. Once We receive and confirm Your request, We will disclose to You:
+        \n1- The categories of personal information We collected about You.
+        \n2- The categories of sources for the personal information We collected about You.
+        \n3- Our business or commercial purpose for collecting or selling that personal information.
+        \n4- The categories of third parties with whom We share that personal information.
+        \n5- The specific pieces of personal information We collected about You.
+        \n6- If we sold Your personal information or disclosed Your personal information for a business purpose, We will disclose to You:
+        \n1- The categories of personal information categories sold.
+        \n2- The categories of personal information categories disclosed.
+        \n(i) Say no to the sale of Personal Data (opt-out). You have the right to direct Us to not sell Your personal information. To submit an opt-out request please contact Us.
+        \n(ii) Be treated fairly. You have the right not to be discriminated against for exercising any of Your consumer\'s rights, including by.
+        \n1- Denying goods or services to You.
+        \n2- Charging different prices or rates for goods or services, including the use of discounts or other benefits or imposing penalties.
+        \n3- Providing a different level or quality of goods or services to You.
+        \n5) Suggesting that You will receive a different price or rate for goods or services or a different level or quality of goods or services.
+        \n6) If You have any question about these rights or You would like exercise any of them, please contact us by the provided email address. Before We can respond to a request to exercise one or more of the rights listed above, You may be required to verify your identity or your account details. Please note that your ability to access or control your personal data will be limited in some cases, as required or permitted by applicable law. (We will reply to you within 14 working days of receiving your email. When the email is sent successfully, our reply will be deemed to have been delivered).
+        \n7) Please note that if You decide not to provide the personal data We request (such as your contact detail to communicate with You) We may not be able to timely or adequately respond to your needs or proposals with respect to your rights as set forth above.
+    </string>
+
+
+    <string name="privacy_police_cookies_title" translatable="false">Cookies and Similar Technologies</string>
+    <string name="privacy_police_cookies_body" translatable="false">1) We may use cookies, or similar technologies on our app to store information locally on your device(s).
+        \n2) Cookies will be saved to your device(s) after You have accepted our Cookies Policy which will be presented to You when You required to log in to your account on a social platform.
+        \n3) Such Cookies will be deleted when You log out.
+        \n4) Please note that you may become unable to use our services or functions that rely on Cookies if You decline such Cookies.
+    </string>
+
+
+    <string name="privacy_police_security_of_personal_data_title" translatable="false">Security of Personal Data</string>
+    <string name="privacy_police_security_of_personal_data_body" translatable="false">1) The security, integrity, and confidentiality of your personal data are extremely important to us.
+        \n 2) We will use various technologies and administrative measures to protect your personal data which have been collected and/or stored by us from being lost, being misused, unauthorized accessed, or leaking. In addition, all processing by our staff is based on their work assignments and bound by confidentiality obligations.
+        \n 3) Please note that despite our best efforts to provide security protection for your personal data, due to the limit of technology as well as various possible malicious means in the internet industry, no security measures are perfect or impenetrable. We will regularly review our security procedures to consider appropriate new technology and methods.
+    </string>
+
+
+    <string name="privacy_police_store_personal_data_title" translatable="false">Store Your Personal Data</string>
+    <string name="privacy_police_store_personal_data_body" translatable="false">1) Generally, We only collect and use your personal data to the extent of responding to your request, and such data will not be stored in our local device or server.
+        \n2) To be specific, if You contact us for feedback, complaints, bug reports, or questions regarding your personal data, We may collect and use your technical information about the device(s) and/or browsers (including without limitation your IP address, browsing type, mobile model, operating systems, network type, and other browser settings/preference) You may use, and We will only retain such data and your contact details (such as email address) on Google Sheet, instead of our local device and/or server.
+    </string>
+
+
+    <string name="privacy_police_remaining_again_title" translatable="false">Remaining Again</string>
+    <string name="privacy_police_remaining_again_body" translatable="false">1) We do not store your personal data unless We otherwise express so in this Policy.
+        \n2) In the case We retain your contact details (such as email address) and feedback/complaints on Google Sheet, We will delete such data as soon as You are satisfied with our response.
+        \n3) Please note that the photos, videos, or any other contents You download with our app will be stored in your photo album, local folder, and/or local browser on your device(s), and will not be stored by us.
+    </string>
+
+
+    <string name="privacy_police_contact_us_title" translatable="false">Contact Us</string>
+    <string name="privacy_police_contact_us_body" translatable="false">1) If You have any questions about this Privacy Policy or our privacy practices, or if You wish to exercise your rights in respect of your personal data, please contact us in the following ways:
+        \nEmail address: mahmoudtharwat909090@gmil.com
+    </string>
+
+
+    //////////////////////////// terms of use /////////////////////////
+
+    <string name="terms_of_use_title">Terms of Use</string>
+
+    <string name="terms_of_use_content_title" translatable="false">Welcome to InstaDownloader App \n Update in : 1-Aug-2022</string>
+
+
+    <string name="terms_of_use_introduction_title" translatable="false">Introduction</string>
+    <string name="terms_of_use_introduction_body" translatable="false">1) InstaDownloader App (hereinafter collectively referred to as "App"). We contribute to provide Users with the services of downloading videos, pictures, and reels from Instagram and its relevant Apps, saving stories from Instagram and its relevant Apps, and so on (hereinafter referred to as "Services"), on the demand.
+        \n2) Individuals or enterprises (hereinafter referred to as "You" or "Users") shall thoroughly and carefully read the Terms of Use (hereinafter referred to as "Agreement") before using or accessing our Services. While using our Services, You are deemed to have fully understood and accepted and are willing to abide by all of the following terms and conditions, and this Agreement shall become effective immediately between Users and Us. If You disagree with this Agreement in whole or part, You are entitled to terminate our Services at any time. Any questions about this Agreement, please contact our legal team via mahmoudtharwat909090@gmil.com.
+        \n3) We have other agreements supplementing this Agreement, e.g. our Privacy Policy and Cookie Policy. We reserve the right to amend this Agreement or related agreements at any time without notice, which shall take effect and apply immediately. If You disagree, You have the right to stop the Services agreed herein. Once the changes of our agreements have been published, You continually using Our Services are deemed to have fully read, understood, and accepted the changed agreements, and shall abide by such agreements.
+        \n4) Our Services are not available for use by persons under the age of 13 (or the minimum legal age in your country to use our Services, hereinafter referred to as "Children"). Children may not be allowed to receive any services from Us unless the services are ordered by the Children\'s guardian personally. In this case, the guardian is responsible for the Children\'s activity on the Services.
+    </string>
+
+
+    <string name="terms_of_use_users_accounts_title" translatable="false">User Accounts</string>
+    <string name="terms_of_use_users_accounts_body" translatable="false">1) To use our Services on InstaDownloader App, You will be required to provide the minimum information needed to realize the basic functions of this app, such as obtaining the cookies, operating system, unique device identifier, login IP address, software version, connection method and type of network, device accelerator (such as gravity sensing device), operation log and album access permissions. If You fail to maintain accurate, complete, and up-to-date information (such as credit card expires), You may not be able to use partial services. Your User account gives You access to the Apps and functionality that We may establish and maintain from time to time and at our sole discretion. By connecting to our Apps with a third-party service, You give us permission to access and use your information from that service as permitted by that service, and to store your log-in credentials for that service. We care about the integrity and security of your personal information. However, We cannot guarantee that unauthorized third parties will never be able to defeat our security measures or use your personal information for improper purposes. You acknowledge that You provide your personal information at your own risk.
+        \n2) You may never use another User\'s account without permission. When creating your account, You must provide accurate and complete information. You are solely responsible for the activity that occurs on your account, and You must keep your account password secure. We encourage You to use strong passwords (passwords that use a combination of upper and lower case letters, numbers, and symbols) with your account. You may control your User profile and how You interact with the Apps by changing the settings in the mobile apps. By providing Us your email address, You consent to our using the email address to send You App-related notices, including any notices required by law, in lieu of communication by postal mail. We may also use your email address to send You other messages, such as changes to features of the App and special offers.
+        \n3) You agree not to engage in any of the following prohibited activities: (i) copying, distributing, or disclosing any part of the Apps in any medium, including without limitation by any automated or non-automated scraping; (ii) using any automated system, including but not limited to robots, spiders, offline readers, etc., to access the Apps in a manner that sends more request messages to Our servers than a human can reasonably produce in the same period of time by using a conventional on-line web browser; (iii) transmitting spam, chain letters, or other unsolicited email; (iv) attempting to interfere with, compromise the system integrity or security or decipher any transmissions to or from the servers running the Apps; (v) taking any action that imposes, or may impose at our sole discretion an unreasonable or disproportionately large load on our infrastructure; (vi) uploading invalid data, viruses, worms, or other software agents through the Apps; (vii) collecting or harvesting any personally identifiable information, including account names, from the Apps; (viii) using the Apps for any commercial purposes without having all necessary rights and licenses to the User Content (as defined below); (ix) impersonating another person or otherwise misrepresenting your affiliation with a person or entity, conducting fraud, hiding or attempting to hide your identity; (x) interfering with the proper working of the Apps; (xi) accessing any content on the Apps through any technology or means other than those capabilities provided by the Apps; or (xii) bypassing the measures We may use to prevent or restrict access to the Apps, including without limitation features that prevent or restrict use or copying of any content or enforce limitations on use of the Apps or the content therein.
+        \n4) We may, without prior notice, change the Apps, stop providing the Apps or features of the Apps, to You or create usage limits for the Apps. We may permanently or temporarily terminate or suspend your access to the Apps, or delete any User Content, without notice and liability for any reason, including if in our sole determination You violate any provision of this Agreement, or for no reason. Upon termination for any reason or no reason, You continue to be bound by this Agreement.
+        \n5) You are solely responsible for your conduct and any data, text, files, information, images, photos and video clips, sound recordings, musical works, narration, works of authorship, links, and other content or materials that You submit, post, or display on or via our Apps. We shall have no liability for conduct in relation to your use of our Apps.
+        \n6) If it is found that your account or our Apps have been illegally used by others, You shall immediately notify Us to avoid unnecessary losses. If and as permitted by applicable law, We may, but have no obligation to (i) ask You to provide identification or other information, (ii) undertake checks designed to help verify your identity or background, (iii) screen You against third-party databases or other sources and request reports from service providers, and (iv) obtain reports from public records of criminal convictions or sex offender registrations or their local equivalents.
+    </string>
+
+
+    <string name="terms_of_use_users_content_title" translatable="false">User content</string>
+    <string name="terms_of_use_users_content_body" translatable="false">1) Any such materials a User provides, shares, submits, displays, or otherwise creates using the Apps, are User Content. We claim no ownership rights over User Content created by You.
+        \nWe have the right (but not the obligation) in its sole discretion to remove any User Content that is stored via the Apps. If You believe that your copyrighted work has been copied in a way that constitutes copyright infringement and is located on the Apps, please notify us. And You must provide the following information in writing:
+        \n(i) An electronic or physical signature of a person authorized to act on behalf of the copyright owner.
+        \n(ii) Identification of the copyrighted work that You claim has been infringed.
+        \n(iii) Identification of the material that is claimed to be infringing, and where it is located in the Apps.
+        \n(iv) Information reasonably sufficient to permit Us to contact You, such as your address, telephone number, and, e-mail address.
+        \n(v) A statement that You have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or law. and
+        \n(vi) A statement, made under penalty of perjury, that the above information is accurate, and that You are the copyright owner or are authorized to act on behalf of the owner. The above information must be submitted to the following Email: mahmoudtharwat909090@gmil.com.
+        \n2) You agree not to post, store, transmit, create or share any User Content that:
+        \n(i) may create a risk of harm, loss, physical or mental injury, emotional distress, death, disability, disfigurement, or physical or mental illness to You, to any other person, or to any animal.
+        \n(ii) may create a risk of any other loss or damage to any person or property.
+        \n(iii) seeks to harm or exploit children by exposing them to inappropriate content, asking for personally identifiable details or otherwise.
+        \n(iv) may constitute or contribute to a crime or tort.
+        \n(v) contains any information or content that we deem to be unlawful, harmful, abusive, racially or ethnically offensive, defamatory, infringing, invasive of personal privacy or publicity rights, harassing, humiliating to other people (publicly or otherwise), libelous, threatening, profane, or otherwise objectionable.
+        \n(vi) contains any information or content that is illegal (including, without limitation, the disclosure of insider information under securities law or of another party\'s trade secrets).
+        \n(vii) contains any information or content that You do not have a right to make available under any law or under contractual or fiduciary relationships. You agree that any User Content that You create, store, or share does not and will not violate third-party rights of any kind, including without limitation any Intellectual Property Rights (as defined below) or rights of privacy. We reserve the right but is not obligated, to reject and//or remove any User Content that Our believes, in its sole discretion, violates these provisions.
+        \n3)For the purposes of this Agreement, Intellectual Property Rights means all patent rights, copyright rights, mask work rights, moral rights, rights of publicity, trademark, trade dress and service mark rights, goodwill, trade secret rights, and other intellectual property rights as may now exist or hereafter come into existence, and all applications therefore and registrations, renewals, and extensions thereof, under the laws of any state, country, territory or other jurisdiction.
+        \n4) In connection with your User Content, You affirm, represent, and warrant the following:
+        \n(i) Your User Content and your use thereof as contemplated by this Agreement and the Apps will not violate any law or infringe any rights of any third party, including but not limited to any Intellectual Property Rights or privacy rights. To the extent that You use our Apps for any commercial purpose and your User Content contains any copyrighted material that is not your original work or in which You do not otherwise own the copyright, You have obtained all rights, licenses, consents, and permissions necessary in order to use that copyrighted material in connection with the creation and//or dissemination of that User Content using the Apps.
+        \n5) We may exercise the rights to your User Content granted under this Agreement without liability for payment of any guild fees, residuals, payments, fees, or royalties payable under any collective bargaining agreement or otherwise. We take no responsibility and assumes no liability for any User Content that You or any other User or third party creates, stores, shares, posts, or sends through the Apps. You shall be solely responsible for your User Content and the consequences of posting, publishing it, or sharing it and You agree that We are only acting as a passive conduit for your online distribution and publication of your User Content. If your Content violates this Agreement, You may bear legal responsibility for that content.
+    </string>
+
+
+    <string name="terms_of_use_our_proprietary_rights_title" translatable="false">Our Proprietary Rights</string>
+    <string name="terms_of_use_our_proprietary_rights_body" translatable="false">1) The Apps contain material owned or licensed by Us (hereinafter collectively referred to as "Our\'s IP"). Our\'s IP may be protected by copyright, trademark, patent, trade secret, and other laws, and as between You and Us, We owns and retains all rights in the App\'s IP. You will not remove, alter, or conceal any copyright, trademark, service mark, or other proprietary rights notices incorporated in or accompanying the Apps and You will not reproduce, modify, adapt, prepare derivative works based on, perform, display, publish, distribute, transmit, broadcast, sell, license or otherwise exploit the Apps.
+        \n2) The InstaDownloader name and logo are trademarks of Us, and may not be copied, imitated, or used, in whole or in part, without the prior written permission of Us. In addition, all page headers, custom graphics, button icons, and scripts are service marks, trademarks, and/or trade dress of Us, and may not be copied, imitated, or used, in whole or in part, without prior written permission from Us.
+        \n3) You may choose to or we may invite You to submit comments or ideas about the Apps, including without limitation about how to improve the Apps (hereinafter collectively referred to as "Idea"). By submitting any Idea, You agree that your disclosure is gratuitous, unsolicited, and without restriction and will not place Us under any fiduciary or other obligation and that we are free to use the Idea without any additional compensation to You, and/or to disclose the Idea on a non-confidential basis or otherwise to anyone. You further acknowledge that, by acceptance of your submission, We do not waive any rights to use similar or related ideas previously known to Us, or developed by its employees, or obtained from sources other than You.
+    </string>
+
+
+    <string name="terms_of_use_our_services_title" translatable="false">Our Services</string>
+    <string name="terms_of_use_our_services_body" translatable="false">1) We will provide You with download services and other services in accordance with this Agreement.
+        \n2) We will use Google\'s related services (such as Google Analytics and Google Cloud) to analyze the usage and to ensure compliance with their terms and privacy policies. Without the authorization of You and Google, we will not collect or process your personal information through Google services. For more information, You may refer to "How Google uses data when you use our partners' sites or apps" (located at www.google.com/policies/privacy/partners/, or any other URL Google may provide from time to time) to understand the privacy policy of Google and its related components.
+    </string>
+
+
+    <string name="terms_of_use_fees_and_payment_title" translatable="false">Fees, Payment &amp; Invoice</string>
+    <string name="terms_of_use_fees_and_payment_body" translatable="false">1) We do not charge You for using the Apps unless You subscribe for member services via Google Play. Also, We will get benefits from Admob, Applovin by publishing advertisements on our Apps. For the rates of the service fees, please refer to the price displayed on the Apps or email to mahmoudtharwat909090@gmil.com.
+        \n2) Please note that, unless We have a special agreement in this Agreement, the content of fees and payment shall be in accordance with the requirements of Google Play Terms of Service.
+        \n3) We may at our sole discretion, offer certain users with discount coupons from time to time, which may result in different amounts charged for the same or similar services, and You agree that such coupons shall not apply to You unless we have made available to You.
+        \n4) Subscription will automatically renew and the subscription fee will be charged according to the services You\'ve chosen after trial unless canceled. You may manage or cancel your subscription at any time in Subscription on Google Play. For subscription cancellation, please turn off auto-renewal at least 24 hours in advance before the current subscription period ends. You will not receive a refund for the current billing period, except as otherwise provided in Google Play\'s Refund Policy.
+        \n5) Please note that We reserve the right to request additional fees arising from any damage caused by your use of our Services.
+        \n6) We link your payment account to your personal account on Google Play Store. For wrong or unauthorized payment operations (including but not limited to wrong or unauthorized deductions) of your account in connection with our app, Google Payment shall make a direct refund to You, and You shall agree to authorize us to make a refund claim to the corresponding payment provider on your behalf.
+        \n7) You may apply for the invoice of the payment You have made for our additional service through the Apps from time to time, and We will issue the corresponding invoice to the email address You provide. If You have any questions, You shall contact us within 48 hours after the charged Services complete.
+    </string>
+
+
+    <string name="terms_of_use_limitation_of_liability_title" translatable="false">Limitation of Liability</string>
+    <string name="terms_of_use_limitation_of_liability_body" translatable="false">1) To the extent permitted by applicable law, We shall not be liable for the following:
+        \n(i) Any losses that could not reasonably be expected to arise from our negligence or breach of this Agreement.
+        \n(ii) Any losses relating to your business or any other third party\'s business.
+        \n(iii) Any costs, fees, expenses, losses, damages, or liabilities suffered by anyone other than You in connection with your use of our Services.
+        \n2) Provided that We are liable to You in connection with the Services, our liability will be limited to an amount equal to the service fee You have paid for the corresponding Services in aggregate.
+    </string>
+
+
+    <string name="terms_of_use_dispute_resolution_title" translatable="false">Dispute resolution</string>
+    <string name="terms_of_use_dispute_resolution_body" translatable="false">1) Amicable dispute resolution
+        \n(i) Users may bring any disputes to Us who will try to resolve them amicably.
+        \n(ii) While Users\' right to take legal action shall always remain unaffected, in the event of any controversy regarding the use of the Apps or the Services, Users are kindly asked to contact Us at the contact details provided in this Agreement.
+        \n(iii) Users may submit the complaint including a brief description and if applicable, the details of the related order, purchase, or account, to Us via mahmoudtharwat909090@gmil.com.
+        \n(iv) We will process the complaint without undue delay and within 21 days of receiving it.
+    </string>
+
+
+    <string name="terms_of_use_miscellaneous_title" translatable="false">Miscellaneous</string>
+    <string name="terms_of_use_miscellaneous_body" translatable="false">1) The Apps may contain third-party websites or website links, and You shall decide whether to access these links. We are not responsible for the accuracy, completeness, adequacy, and reliability of any information, data, opinions, pictures, statements, or suggestions made available on these websites. If You decide to visit any third-party website linked to the Apps, You shall be solely responsible for the possible results and risks therefrom.
+        \n2) If any provision of this Agreement is held to be illegal, invalid or unenforceable under applicable law, such provision thereof shall to that extent be deemed not to form part of this Agreement, and shall not affect the legality, validity, and enforceability of other provisions.
+        \n3) You agree that We may assign or transfer this Agreement in whole or in part to either a subsidiary or affiliate of us or a successor by merger or acquisition.
+        \n4) DISCLAIMER : THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE." WE DISCLAIM ALL REPRESENTATIONS AND WARRANTIES, EXPRESS, IMPLIED OR STATUTORY, NOT EXPRESSLY SET OUT IN THIS AGREEMENT, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN ADDITION, WE MAKE NO REPRESENTATION, WARRANTY, OR GUARANTEE REGARDING THE RELIABILITY, TIMELINESS, QUALITY, SUITABILITY, OR AVAILABILITY OF THE SERVICES OR ANY SERVICES OR GOODS REQUESTED THROUGH THE USE OF THE SERVICES OR THAT THE SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE. WE DO NOT GUARANTEE THE QUALITY, SUITABILITY, SAFETY, OR ABILITY OF THIRD PARTY PROVIDERS. YOU AGREE THAT THE ENTIRE RISK ARISING OUT OF YOUR USE OF THE SERVICES IN CONNECTION THEREWITH, REMAINS SOLELY WITH YOU, TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW.
+        \n5) LIMITATION OF LIABILITY : WE SHALL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, LOST DATA, PERSONAL INJURY OR PROPERTY DAMAGE RELATED TO, IN CONNECTION WITH, OR OTHERWISE RESULTING FROM ANY USE OF THE SERVICES, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. WE SHALL NOT BE LIABLE FOR ANY DAMAGES, LIABILITY, OR LOSSES ARISING OUT OF
+        \n(i) YOUR USE OF OR RELIANCE ON THE SERVICES OR YOUR INABILITY TO ACCESS OR USE THE SERVICES.
+        \n(ii) ANY TRANSACTION OR RELATIONSHIP BETWEEN YOU AND ANY THIRD PARTY PROVIDER, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. WE SHALL NOT BE LIABLE FOR DELAY OR FAILURE IN PERFORMANCE RESULTING FROM CAUSES BEYOND OUR REASONABLE CONTROL. IN NO EVENT SHALL OUR TOTAL LIABILITY TO YOU IN CONNECTION WITH THE SERVICES FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION EXCEED THE SERVICE FEE WE HAVE CHARGED FROM YOU FOR THE CORRESPONDING SERVICE. THE LIMITATIONS AND DISCLAIMER IN THIS SECTION DO NOT PURPORT TO LIMIT LIABILITY OR ALTER YOUR RIGHTS AS A CONSUMER THAT CANNOT BE EXCLUDED UNDER APPLICABLE LAW.
+        \n6) INDEMNITY : YOU UNDERTAKE TO INDEMNIFY US AND OUR OFFICERS, DIRECTORS, EMPLOYEES, CHAUFFEURS ON DEMAND AGAINST ALL CLAIMS, ACTIONS, CHARGES, COSTS, EXPENSES, DEMANDS, DAMAGES, LIABILITIES, PROCEEDINGS OR JUDGMENTS WHICH ARISING OUT OF OR IN CONNECTION WITH YOUR BREACH OR VIOLATION OF THIS AGREEMENT, OR YOUR INFRINGEMENT OF ANY THIRD PARTY\'S RIGHTS.
+    </string>
+
+
+
+
+
+
+</resources>
