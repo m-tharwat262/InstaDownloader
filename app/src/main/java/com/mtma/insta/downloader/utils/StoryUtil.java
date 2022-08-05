@@ -29,10 +29,6 @@ public class StoryUtil {
 
 
     private static final String LOG_TAG = StoryUtil.class.getSimpleName();
-
-
-
-
     private static final String USER_HAS_STORIES_URL = "https://i.instagram.com/api/v1/feed/reels_tray/";
 
 
@@ -61,7 +57,6 @@ public class StoryUtil {
 
             // if the connection response code not equal 200 return from method early.
             int responseCode = httpConnection.getResponseCode();
-            Log.i(LOG_TAG, "  UNIX  responseCode  :  " + responseCode);
             if (responseCode != 200) {
                 return null;
             }
@@ -69,7 +64,6 @@ public class StoryUtil {
 
             // if the result from connection empty or not contains node "tray" return from method early.
             String result = buildResultString(httpConnection);
-            Log.i(LOG_TAG, "  UNIX  result  :  " + result);
 
 
             // start get required data from response string.

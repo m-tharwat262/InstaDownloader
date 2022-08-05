@@ -15,9 +15,7 @@ public class SavedPostObject {
     private String thumbnailUrl = "";
 
 
-
-    public SavedPostObject() {
-    }
+    public SavedPostObject() { }
 
 
     public String getMediaCode() {
@@ -68,6 +66,7 @@ public class SavedPostObject {
         this.thumbnailUrl = thumbnailUrl;
     }
 
+
     @Override
     public String toString() {
 
@@ -82,4 +81,6 @@ public class SavedPostObject {
         return text;
 
     }
+
+
 }

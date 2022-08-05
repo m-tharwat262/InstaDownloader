@@ -13,7 +13,8 @@ public class UserHasStoryObject {
     private String profilePictureUrl = "";
 
 
-    public UserHasStoryObject(){}
+    public UserHasStoryObject() { }
+
 
     public String getUserName() {
         return userName;
@@ -46,6 +47,7 @@ public class UserHasStoryObject {
     public void setProfilePictureUrl(String profilePictureUrl) {
         this.profilePictureUrl = profilePictureUrl;
     }
+
 
     @Override
     public String toString() {

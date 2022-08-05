@@ -128,9 +128,6 @@ public class InstagramOfficialLoginActivity extends AppCompatActivity {
 
                 mCookies = CookieManager.getInstance().getCookie(url);
 
-                Log.i("Unix", "the url is :  " + url);
-                Log.i("Unix", "the cookie :  " + mCookies);
-
 
                 try {
 

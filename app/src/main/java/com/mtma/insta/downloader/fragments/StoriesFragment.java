@@ -37,13 +37,14 @@ public class StoriesFragment extends Fragment {
     private final Context mContext;
     private SharedPreferences mSharedPreference;
 
+
     private View mMainView;
     private HListView mListView;
     private EditText mSearchView;
     private TextView mLoginHintTextView;
 
-    private CircleStoriesAdapter mCircleStoriesAdapter;
 
+    private CircleStoriesAdapter mCircleStoriesAdapter;
 
 
     public StoriesFragment(Context context) {

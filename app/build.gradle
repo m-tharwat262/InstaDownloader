@@ -47,8 +47,6 @@ dependencies {
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'com.makeramen:roundedimageview:2.3.0'
     implementation 'it.sephiroth.android.library.horizontallistview:hlistview:1.2.2'
-    implementation 'com.google.android.gms:play-services-ads:20.6.0'
-    implementation 'com.google.ads.mediation:facebook:6.10.0.0'
     implementation "androidx.multidex:multidex:2.0.1"
     implementation 'com.github.castorflex.smoothprogressbar:library:1.1.0'
     implementation 'com.google.code.gson:gson:2.8.7'
@@ -66,12 +64,6 @@ dependencies {
 
     // for firebase.
     implementation 'com.google.firebase:firebase-database:20.0.5'
-
-
-    implementation 'net.protyposis.android.mediaplayer:mediaplayer:4.4.1'
-    implementation 'net.protyposis.android.mediaplayer:mediaplayer-dash:4.4.1'
-
-
 
 
 }

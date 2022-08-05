@@ -1,5 +1,6 @@
 package com.mtma.insta.downloader.activities;
 
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
@@ -18,6 +19,7 @@ import com.mtma.insta.downloader.R;
 
 import java.util.Locale;
 
+
 public class PrivacyPoliceActivity extends AppCompatActivity {
 
 
@@ -25,9 +27,11 @@ public class PrivacyPoliceActivity extends AppCompatActivity {
     private Context mContext;
     private SharedPreferences mSharedPreference;
 
+
     private TextView mTitleTextView;
     private ImageView mBackUpButton;
     private LinearLayout mContainerLayout;
+
 
     private String mAppLanguage;
 

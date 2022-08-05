@@ -36,7 +36,6 @@ import androidx.core.content.ContextCompat;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.mtma.insta.downloader.Constants;
 import com.mtma.insta.downloader.R;
 import com.mtma.insta.downloader.data.InstaContractor.MediaEntry;
@@ -80,11 +79,8 @@ public class SavedPostsActivity extends AppCompatActivity {
 
     private String mAppLanguage;
     private Boolean mIsLoggedIn;
-
     ArrayList<Boolean> mCheckedItems = new ArrayList<>();
 
-
-    InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -709,87 +705,8 @@ public class SavedPostsActivity extends AppCompatActivity {
                 // hint the user that the download successful after finished.
                 Toast.makeText(mContext, R.string.toast_media_saved_successfully, Toast.LENGTH_SHORT).show();
 
-
-//                ProgressDialog dialog = new ProgressDialog(MainActivity.this);
-//                dialog.setCancelable(false);
-//                dialog.setMessage("Please wait...");
-//                dialog.setCanceledOnTouchOutside(false);
-//                dialog.show();
-//
-//
-//                AdRequest adRequest = new AdRequest.Builder().build();
-//                InterstitialAd.load(MainActivity.this,getResources().getString(R.string.interstitial_id_admob), adRequest,
-//                        new InterstitialAdLoadCallback() {
-//                            @Override
-//                            public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
-//                                // The mInterstitialAd reference will be null until
-//                                // an ad is loaded.
-//                                dialog.dismiss();
-//                                mInterstitialAd = interstitialAd;
-//                                Log.i("Mediation", "onAdLoaded");
-//                                if (mInterstitialAd != null) {
-//                                    mInterstitialAd.show(MainActivity.this);
-//                                    mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback(){
-//                                        @Override
-//                                        public void onAdDismissedFullScreenContent() {
-//                                            // Called when fullscreen content is dismissed.
-//                                            Log.d("TAG", "The ad was dismissed.");
-//
-//                                            saveProfilePic(downloadingObject.getUserName(), downloadingObject.getProfilePicUrl());
-//
-//
-//                                            insertPostDataInsideDatabase(downloadingObject, mPostUrl);
-//
-//
-//                                            mUrlEditText.setText("");
-//                                            mUrlEditText.clearFocus();
-//
-//                                            Toast.makeText(mContext, R.string.toast_media_saved_successfully, Toast.LENGTH_SHORT).show();
-//                                        }
-//
-//                                        @Override
-//                                        public void onAdFailedToShowFullScreenContent(AdError adError) {
-//                                            // Called when fullscreen content failed to show.
-//                                            Log.d("TAG", "The ad failed to show.");
-//                                        }
-//
-//                                        @Override
-//                                        public void onAdShowedFullScreenContent() {
-//                                            // Called when fullscreen content is shown.
-//                                            // Make sure to set your reference to null so you don't
-//                                            // show it a second time.
-//                                            mInterstitialAd = null;
-//                                            Log.d("TAG", "The ad was shown.");
-//                                        }
-//                                    });
-//                                } else {
-//                                    Log.d("TAG", "The interstitial ad wasn't ready yet.");
-//                                }
-//
-//                            }
-//
-//                            @Override
-//                            public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
-//                                // Handle the error
-//                                Log.i("Mediation", loadAdError.getMessage());
-//                                mInterstitialAd = null;
-//                                dialog.dismiss();
-//                                saveProfilePic(downloadingObject.getUserName(), downloadingObject.getProfilePicUrl());
-//
-//
-//                                insertPostDataInsideDatabase(downloadingObject, mPostUrl);
-//
-//
-//                                mUrlEditText.setText("");
-//                                mUrlEditText.clearFocus();
-//
-//                                Toast.makeText(mContext, R.string.toast_media_saved_successfully, Toast.LENGTH_SHORT).show();
-//                            }
-//                        });
-
-
-
             }
+
         }
 
     }

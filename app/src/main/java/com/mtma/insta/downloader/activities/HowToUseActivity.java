@@ -1,5 +1,6 @@
 package com.mtma.insta.downloader.activities;
 
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;

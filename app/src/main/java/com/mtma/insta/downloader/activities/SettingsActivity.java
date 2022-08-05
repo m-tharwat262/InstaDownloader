@@ -1,5 +1,6 @@
 package com.mtma.insta.downloader.activities;
 
+
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
@@ -57,6 +58,8 @@ public class SettingsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
+        // TODO: add app version at the bottom of the layout.
 
         // initialize global variable values.
         initializeGlobalVariables();

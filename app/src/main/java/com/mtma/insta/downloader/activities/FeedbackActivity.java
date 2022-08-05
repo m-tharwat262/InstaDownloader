@@ -1,5 +1,6 @@
 package com.mtma.insta.downloader.activities;
 
+
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -49,8 +50,10 @@ public class FeedbackActivity extends AppCompatActivity {
     private EditText mMessageEditText;
     private TextView mSendButton;
 
+
     private String mDeviceId;
     private String mAppLanguage;
+
 
     private DatabaseReference mFeedbackDatabaseReference;
 

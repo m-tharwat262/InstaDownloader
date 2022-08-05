@@ -15,7 +15,6 @@ import androidx.fragment.app.Fragment;
 
 import com.bumptech.glide.Glide;
 import com.github.chrisbanes.photoview.PhotoView;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.mtma.insta.downloader.R;
 import com.mtma.insta.downloader.data.InstaContractor.MediaEntry;
 import com.mtma.insta.downloader.models.DownloadingObject;
@@ -40,9 +39,6 @@ public class DisplayStoryFragment extends Fragment {
 
     private final String mMediaUrl;
     private final DownloadingObject mDownloadingObject;
-
-
-    InterstitialAd mInterstitialAd;
 
 
     public DisplayStoryFragment(Context context, DownloadingObject downloadingObject) {

@@ -38,6 +38,7 @@ public class SavedPostsFragment extends Fragment {
     private final Context mContext;
     private SharedPreferences mSharedPreference;
 
+
     private View mMainView;
     private LinearLayout mHeaderLayout;
     private TextView mSeeAllButton;
@@ -47,6 +48,7 @@ public class SavedPostsFragment extends Fragment {
     public SavedPostsFragment(Context context) {
         mContext = context;
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

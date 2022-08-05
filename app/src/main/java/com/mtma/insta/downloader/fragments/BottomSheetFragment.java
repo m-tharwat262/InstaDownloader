@@ -30,8 +30,10 @@ import java.util.regex.Pattern;
 
 public class BottomSheetFragment extends BottomSheetDialogFragment {
 
+
     private static final String LOG_TAG = BottomSheetFragment.class.getSimpleName();
     private final Context mContext;
+
 
     private View mMainView;
     private LinearLayout mRepostButton;
@@ -41,10 +43,12 @@ public class BottomSheetFragment extends BottomSheetDialogFragment {
     private LinearLayout mCopyHashtagsButton;
     private LinearLayout mDeleteButton;
 
+
     private final long mDatabaseId;
     private final int mProductType;
     private final String mMediaCode;
     private final String mTextAndHashtags;
+
 
     private String mMediaText;
     private String mMediaHashtags;

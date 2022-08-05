@@ -3,6 +3,7 @@ package com.mtma.insta.downloader.models;
 
 public class AppUserObject {
 
+
     private String userName;
     private String realName;
     private String profilePicUrl;
@@ -15,6 +16,7 @@ public class AppUserObject {
         this.profilePicUrl = profilePicUrl;
 
     }
+
 
     public String getRealName() {
         return realName;

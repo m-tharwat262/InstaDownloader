@@ -29,6 +29,7 @@ import java.util.ArrayList;
 
 public class StoryDialogFragment extends DialogFragment {
 
+
     private static final String LOG_TAG = StoryDialogFragment.class.getName();
     private final Context mContext;
 
@@ -46,7 +47,6 @@ public class StoryDialogFragment extends DialogFragment {
 
     private String mUserName;
     private String mUserId;
-
     private ArrayList<DownloadingObject> mDownloadingObjectList = new ArrayList<>();
 
 

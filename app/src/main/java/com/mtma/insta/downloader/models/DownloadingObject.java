@@ -4,6 +4,7 @@ package com.mtma.insta.downloader.models;
 import java.io.Serializable;
 import java.util.ArrayList;
 
+
 public class DownloadingObject implements Serializable {
 
 
@@ -23,10 +24,7 @@ public class DownloadingObject implements Serializable {
 
 
 
-    public DownloadingObject() {
-    }
-
-
+    public DownloadingObject() { }
 
 
     public boolean isNeedLogin() {

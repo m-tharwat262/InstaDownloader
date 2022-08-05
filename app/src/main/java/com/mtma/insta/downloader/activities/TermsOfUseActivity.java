@@ -1,5 +1,6 @@
 package com.mtma.insta.downloader.activities;
 
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
@@ -22,15 +23,19 @@ import com.mtma.insta.downloader.R;
 
 import java.util.Locale;
 
+
 public class TermsOfUseActivity extends AppCompatActivity {
+
 
     private static final String LOG_TAG = TermsOfUseActivity.class.getSimpleName();
     private Context mContext;
     private SharedPreferences mSharedPreference;
 
+
     private TextView mTitleTextView;
     private ImageView mBackUpButton;
     private LinearLayout mContainerLayout;
+
 
     private String mAppLanguage;
 

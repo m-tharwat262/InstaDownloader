@@ -65,6 +65,7 @@ public class DisplayingMediaActivity extends AppCompatActivity {
     private String mAppLanguage;
     private final ArrayList<Uri> mFileUris = new ArrayList<>();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

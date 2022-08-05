@@ -24,6 +24,7 @@ import java.io.File;
 
 public class DisplayingMediaFragment extends Fragment {
 
+
     private static final String LOG_TAG = DisplayingMediaFragment.class.getSimpleName();
     private final Context mContext;
 

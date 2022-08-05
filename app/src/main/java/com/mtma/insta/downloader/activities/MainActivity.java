@@ -50,7 +50,6 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.CustomTarget;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -92,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
     private SharedPreferences mSharedPreference;
     private SharedPreferences.Editor mSharedPreferenceEditor;
 
+
     private DrawerLayout mDrawer;
     private Toolbar mToolbar;
     private EditText mUrlEditText;
@@ -119,9 +119,9 @@ public class MainActivity extends AppCompatActivity {
     private boolean mIsSavedPostsEnabled;
     private boolean doubleBackToExitPressedOnce = false;
 
+
     private DatabaseReference mFeedbackDatabaseReference;
 
-    InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -1859,87 +1859,8 @@ public class MainActivity extends AppCompatActivity {
                 // hint the user that the download successful after finished.
                 Toast.makeText(mContext, R.string.toast_media_saved_successfully, Toast.LENGTH_SHORT).show();
 
-
-//                ProgressDialog dialog = new ProgressDialog(MainActivity.this);
-//                dialog.setCancelable(false);
-//                dialog.setMessage("Please wait...");
-//                dialog.setCanceledOnTouchOutside(false);
-//                dialog.show();
-//
-//
-//                AdRequest adRequest = new AdRequest.Builder().build();
-//                InterstitialAd.load(MainActivity.this,getResources().getString(R.string.interstitial_id_admob), adRequest,
-//                        new InterstitialAdLoadCallback() {
-//                            @Override
-//                            public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
-//                                // The mInterstitialAd reference will be null until
-//                                // an ad is loaded.
-//                                dialog.dismiss();
-//                                mInterstitialAd = interstitialAd;
-//                                Log.i("Mediation", "onAdLoaded");
-//                                if (mInterstitialAd != null) {
-//                                    mInterstitialAd.show(MainActivity.this);
-//                                    mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback(){
-//                                        @Override
-//                                        public void onAdDismissedFullScreenContent() {
-//                                            // Called when fullscreen content is dismissed.
-//                                            Log.d("TAG", "The ad was dismissed.");
-//
-//                                            saveProfilePic(downloadingObject.getUserName(), downloadingObject.getProfilePicUrl());
-//
-//
-//                                            insertPostDataInsideDatabase(downloadingObject, mPostUrl);
-//
-//
-//                                            mUrlEditText.setText("");
-//                                            mUrlEditText.clearFocus();
-//
-//                                            Toast.makeText(mContext, R.string.toast_media_saved_successfully, Toast.LENGTH_SHORT).show();
-//                                        }
-//
-//                                        @Override
-//                                        public void onAdFailedToShowFullScreenContent(AdError adError) {
-//                                            // Called when fullscreen content failed to show.
-//                                            Log.d("TAG", "The ad failed to show.");
-//                                        }
-//
-//                                        @Override
-//                                        public void onAdShowedFullScreenContent() {
-//                                            // Called when fullscreen content is shown.
-//                                            // Make sure to set your reference to null so you don't
-//                                            // show it a second time.
-//                                            mInterstitialAd = null;
-//                                            Log.d("TAG", "The ad was shown.");
-//                                        }
-//                                    });
-//                                } else {
-//                                    Log.d("TAG", "The interstitial ad wasn't ready yet.");
-//                                }
-//
-//                            }
-//
-//                            @Override
-//                            public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
-//                                // Handle the error
-//                                Log.i("Mediation", loadAdError.getMessage());
-//                                mInterstitialAd = null;
-//                                dialog.dismiss();
-//                                saveProfilePic(downloadingObject.getUserName(), downloadingObject.getProfilePicUrl());
-//
-//
-//                                insertPostDataInsideDatabase(downloadingObject, mPostUrl);
-//
-//
-//                                mUrlEditText.setText("");
-//                                mUrlEditText.clearFocus();
-//
-//                                Toast.makeText(mContext, R.string.toast_media_saved_successfully, Toast.LENGTH_SHORT).show();
-//                            }
-//                        });
-
-
-
             }
+
         }
 
     }
@@ -2143,79 +2064,7 @@ public class MainActivity extends AppCompatActivity {
                 // hint the user that the download successful after finished.
                 Toast.makeText(mContext, R.string.toast_media_saved_successfully, Toast.LENGTH_SHORT).show();
 
-
-
-
-//                ProgressDialog dialog = new ProgressDialog(MainActivity.this);
-//                dialog.setCancelable(false);
-//                dialog.setMessage("Please wait...");
-//                dialog.setCancelable(false);
-//                dialog.show();
-//
-//                AdRequest adRequest = new AdRequest.Builder().build();
-//                InterstitialAd.load(MainActivity.this,getResources().getString(R.string.interstitial_id_admob), adRequest,
-//                        new InterstitialAdLoadCallback() {
-//                            @Override
-//                            public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
-//                                // The mInterstitialAd reference will be null until
-//                                // an ad is loaded.
-//                                mInterstitialAd = interstitialAd;
-//                                dialog.dismiss();
-//                                Log.i("Mediation", "onAdLoaded");
-//                                if (mInterstitialAd != null) {
-//                                    mInterstitialAd.show(MainActivity.this);
-//                                    mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback(){
-//                                        @Override
-//                                        public void onAdDismissedFullScreenContent() {
-//                                            // Called when fullscreen content is dismissed.
-//                                            Log.d("TAG", "The ad was dismissed.");
-//                                            saveProfilePic(singleStoryObject.getUserName(), singleStoryObject.getUserProfilePicUrl());
-//                                            insertPostDataInsideDatabase(singleStoryObject, mStoryUrl);
-//                                            mUrlEditText.setText("");
-//                                            mUrlEditText.clearFocus();
-//                                            Toast.makeText(mContext, R.string.toast_media_saved_successfully, Toast.LENGTH_SHORT).show();
-//
-//                                        }
-//
-//                                        @Override
-//                                        public void onAdFailedToShowFullScreenContent(AdError adError) {
-//                                            // Called when fullscreen content failed to show.
-//                                            Log.d("TAG", "The ad failed to show.");
-//                                        }
-//
-//                                        @Override
-//                                        public void onAdShowedFullScreenContent() {
-//                                            // Called when fullscreen content is shown.
-//                                            // Make sure to set your reference to null so you don't
-//                                            // show it a second time.
-//                                            mInterstitialAd = null;
-//                                            Log.d("TAG", "The ad was shown.");
-//                                        }
-//                                    });
-//                                } else {
-//                                    Log.d("TAG", "The interstitial ad wasn't ready yet.");
-//                                }
-//
-//                            }
-//
-//                            @Override
-//                            public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
-//                                // Handle the error
-//                                Log.i("Mediation", loadAdError.getMessage());
-//                                dialog.dismiss();
-//                                mInterstitialAd = null;
-//                                saveProfilePic(singleStoryObject.getUserName(), singleStoryObject.getUserProfilePicUrl());
-//                                insertPostDataInsideDatabase(singleStoryObject, mStoryUrl);
-//                                mUrlEditText.setText("");
-//                                mUrlEditText.clearFocus();
-//                                Toast.makeText(mContext, R.string.toast_media_saved_successfully, Toast.LENGTH_SHORT).show();
-//
-//                            }
-//                        });
-
-
             }
-
 
         }
 

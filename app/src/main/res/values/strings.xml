@@ -5,12 +5,6 @@
     <string name="app_name_without_space">InstaDownloader</string>
 
 
-    /////////////////////// Google Ads ////////////////////////
-    <string name="app_id_admob" translatable="false">ca-app-pub-3940256099942544~3419835294</string>
-    <string name="banner_id_admob" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstitial_id_admob" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
-
-
 
     /////////////////////// Global Values ////////////////////////
     <string name="insta_word">Insta</string>
@@ -196,17 +190,17 @@
 
 
     <string name="privacy_police_introduction_title" translatable="false">Introduction</string>
-    <string name="privacy_police_introduction_body" translatable="false">1) We takes Users\' privacy very seriously, and We are committed to protecting and respecting Users\' privacy. That value powers all of the decisions We make, including how We collect, use, share, store and respect Users\' personal data.
+    <string name="privacy_police_introduction_body" translatable="false">1) We take Users\' privacy very seriously, and We are committed to protecting and respecting Users\' privacy. That value powers all of the decisions We make, including how We collect, use, share, store and respect Users\' personal data.
         \n2) This Privacy Policy (hereinafter referred to as "Policy") applies to Users (hereinafter referred to as "You" or "Users") of our InstaDownloader App. It is important that You read this Policy together with any other privacy policies or fair processing policies We may provide on specific occasions so that You are fully aware of when, why, and how We collect and process your personal data. If You disagree with this Policy in whole or part, You are entitled to terminate using our Apps at any time.
-        \n3) We reserve the right to amend this Policy or related agreements at any time without notice, which shall take effect and apply immediately. If You disagree, You have the right to stop the Services agreed herein. Once the changes of our agreements have been published, You continually using ours Services are deemed to have fully read, understood, and accepted the changed agreements, and shall abide by such agreements.
-        \n4) This Policy dose not apply to the following cases:
-        \n(i) Any information or personal data collected by any third party services, products, applications, websites, and/or platforms, regardless of whether they are accessible through our Apps.
-        \n(ii) In such circumstances, You should refer directly to the Privacy Policies for the relevant third party.
+        \n3) We reserve the right to amend this Policy or related agreements at any time without notice, which shall take effect and apply immediately. If You disagree, You have the right to stop the Services agreed herein. Once the changes of our agreements have been published, You continually using our Services are deemed to have fully read, understood, and accepted the changed agreements, and shall abide by such agreements.
+        \n4) This Policy does not apply to the following cases:
+        \n(a) Any information or personal data collected by any third-party services, products, applications, websites, and/or platforms, regardless of whether they are accessible through our Apps.
+        \n(b) In such circumstances, You should refer directly to the Privacy Policies for the relevant third party.
     </string>
 
 
     <string name="privacy_police_data_controller_title" translatable="false">Data Controller and Data Processor</string>
-    <string name="privacy_police_data_controller_body" translatable="false">1) We Limited is both the data controller and data processor, who determines the purposes and methods of the data processing concerning your personal data processing for your use of our services. If You have any questions, You can contact us by mahmoudtharwat909090@gmil.com
+    <string name="privacy_police_data_controller_body" translatable="false">1) We Limited is both the data controller and data processor, who determines the purposes and methods of the data processing concerning your personal data processing for your use of our services. If You have any questions, You can contact us at mahmoudtharwat909090@gmail.com
     </string>
 
 
@@ -214,26 +208,26 @@
     <string name="privacy_police_personal_data_body" translatable="false">1) Personal data, or personal information, means any information that identifies (whether directly or indirectly) a particular natural person, such as the name, email address, phone number, identification number, location data, or an online identifier, etc. It does not include data where the identity has been removed (anonymous data).
         \n2) Generally, We do not require You to create an account on our app, and therefore, We do not collect any personal data from You when You download and/or use our app. Also, we do not track your browsing history.
         \n3) When You use our services, We automatically collect information about the device You use to access our services and your usage of our services. The information We collect may include (where available) the type and model of the device(s) You use, the device\'s unique device identifier, operating system, language options, and mobile network information to allow You to use our services. We use this information to administer our services and for our internal operations including troubleshooting, data analysis, testing, research, statistical, and survey purposes, to improve our services.
-        \n4) Please not that our services require access to your device\'s storage application in order to store the completed videos, but We do not take any information, videos, photos, or other content from your device\'s video storage application. To fully experience our services, please also note that You should enable us to access permissions in your phone such as record, camera, microphone, location, etc. You can also disable such access permission in the settings of your phone if You do not think it\'s necessary.
+        \n4) Please note that our services require access to your device\'s storage application in order to store the completed videos, but We do not take any information, videos, photos, or other content from your device\'s video storage application. To fully experience our services, please also note that You should enable us to access permissions in your phone such as record, camera, microphone, location, etc. You can also disable such access permission in the settings of your phone if You do not think it\'s necessary.
         \n5) All features and services within the app don\'t require the collection of face data. We guarantee that face data will not be collected, used, stored, and shared.
-        \n6) Please not that unless otherwise expressed in this Policy, we do not collect and//or store any of your personal data (such as your social platform account password) in any circumstances, including but not limited to:
-        \n(i) when You log in to your personal account of Instagram and its relevant Apps for downloading.
-        \n(ii) when You allow us to access your photo album, local folder, or cloud storage on your device(s).
-        \n(iii) when You repost to any social platform through our Apps.
-        \n(iv) when You download or watch or save data by our app.
-        \n(v) when You subscribe to our service on our app or Google Play.
+        \n6) Please note that unless otherwise expressed in this Policy, we do not collect and//or store any of your personal data (such as your social platform account password) in any circumstances, including but not limited to:
+        \n(a) when You log in to your personal account of Instagram and its relevant Apps for downloading.
+        \n(b) when You allow us to access your photo album, local folder, or cloud storage on your device(s).
+        \n(c) when You repost to any social platform through our Apps.
+        \n(d) when You download or watch or save data by our app.
+        \n(e) when You subscribe to our service on our app or Google Play.
     </string>
 
 
     <string name="privacy_police_how_use_personal_data_title" translatable="false">Using Your Personal Data</string>
     <string name="privacy_police_how_use_personal_data_body" translatable="false">1) We will use the personal data We collect about You in accordance with the laws of applicable jurisdictions in the following ways:
         \n(i) To enter into and to perform our contract with You, or to perform any steps You require from us before entering into a contract with You.
-        \n(ii) To communicate with You, including but not limited to respond to your request for any help with our services or for exercising your rights with respect to your personal data.
+        \n(ii) To communicate with You, including but not limited to responding to your request for any help with our services or for exercising your rights with respect to your personal data.
         \n(iii) To provide you with the services you request.
         \n(iv) To pursue our legitimate interests (or those of a third part) as We deem fit and necessary, where your interests and fundamental rights do not override those legitimate interests of ours (or any third party’s), such as:
         \n1- to understand, improve, optimize and develop our services.
         \n2- to conduct research and monitor the quality of our services.
-        \n3- to enforce our Terms of Use or:
+        \n3- to enforce our Terms of Use.
         \n4- to respond to complaints, hearings, arbitration, lawsuits, or other governmental or regulatory proceedings.
         \n2) To comply with our legal obligations under relevant laws, regulations, and orders (including subpoenas), injunctions, or any other legal documents issued by the court or competent governmental or regulatory authorities.
         \n3) Our service includes and links to features and services (including but not limited to, social applications like YouTube, Facebook, Instagram, and WhatsApp) that are provided by a third party. We do not control such third-party sites or services and are not responsible for the content or functionality of such sites or services. Our inclusion of links does not imply any endorsement or association with their operators. The terms applicable to the use of such third party services will apply and We will not be responsible for anything that is done by You or the third-party service provider in connection with your use of their service. Please note that We do not keep your private personal information like your account, ID, password and etc. on the third-party apps/websites in our services.
